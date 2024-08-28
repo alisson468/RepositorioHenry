@@ -1,0 +1,67 @@
+body {
+background-color: #F6E6CB;
+}
+
+#title{
+
+    font-size: 3em;
+    color: #A0937D;
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    margin: auto;
+    align-items: center;
+
+}
+
+.imagenPrincipal{
+    gap: 3em;
+}
+.titulo{
+    font-size: 2.8em;
+    color: #A0937D;
+}
+
+.titulo2{
+    font-size: 1.5em;
+    color: #A0937D;
+}
+
+.tituloCaja{
+    font-size: 1.3em;
+    color: #A0937D;
+}
+
+.cards{
+    border: 2px solid black;
+    flex: 1;
+    width: 150%;
+    max-width: 220px;
+    box-sizing: border-box;
+    padding: 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards:hover{
+    background-color: #B6C7AA;
+}
+
+#cards-container{
+
+    width: 85vw;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+
+}
